@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <center>
+    <font face="Arial Rounded MT Bold">
+    <h1>CATALOGO DE ARTE</h1>
+    </font>
+    </center>
+
+    <br> <br>
+
+    <b>
+        Introduce los terminos de busqueda
+    </b>
+
+    <br> 
+    <br>
+    <form name="formulario" action="mailto: destino@servidor.com?subject=prueba" method="post" enctype="text/plain">
+
+    <div align="right">
+    <table border="0" width="80%">
+
+        <tr align="Center">
+ 
+            
+            <td> <font face="Arial Black">OBRA</font></td>
+            <td><font face="Arial Black">TIPO</font></td>
+            <td><font face="Arial Black">DISPONIBILIDAD</font></td>
+            <td><font face="Arial Black">ESTILO</font></td>
+        
+        </tr>
+
+        <tr align="">
+
+            <td>
+                 
+                Titulo: &nbsp;
+               <input type="text" name="nombre" size=10 maxlength=50>
+            </td>
+
+            <td>
+                <input type="checkbox" name="tipo" value="esc">
+                Escultura
+                
+            </td>
+
+            <td>
+                <input type="radio" name="disp" value="publ">
+                Museo / Acceso publico
+            </td>
+                
+            <td>
+                <select name="estilo">
+                    <option value="clas" selected>Clasico</option>
+                    <option value="abs">Abstracto</option>
+                    <option value="surr">Surrealista</option>
+                    <option value="otro">Otros</option>
+                    </select>
+            </td>
+
+        </tr>
+
+        <tr align="">
+
+            <td>
+                Autor: &nbsp;
+                <input type="text" name="nombre" size=10 maxlength=50>
+            </td>
+
+            <td>
+                <input type="checkbox" name="tipo" value="arq">
+                Arquitectura
+            </td>
+
+            <td>
+                <input type="radio" name="disp" value="priv">
+                Coleccion privada
+                
+            </td>
+            <td></td>
+            <td></td>
+
+        </tr>
+
+        <tr align="">
+
+            <td></td>
+
+            <td>
+                <input type="checkbox" name="tipo" value="pint">
+                Pintura
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+    </table>
+</div>
+
+<br> <br>
+<br> <br>
+
+<table border="0">
+
+    <td valign="top">
+        Haganos saber sus sugerencias:
+    </td>
+
+    <td>
+ <textarea name="" id="" cols="40" rows="4" noresize>Me gustaria indicar que...</textarea>
+</td>
+
+</table>
+
+<br> <br>
+
+<center>
+    <input type="submit" name="buscar" value="Buscar">
+</center>
+</form>
+
+</body>
+</html>
